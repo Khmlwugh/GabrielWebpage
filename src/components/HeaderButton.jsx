@@ -1,6 +1,6 @@
 function HeaderButton({text}) {
   return (
-    <div>
+    <div className='place-self-center self-center border-transparent hover:border-black border-b-2'>
       {text}
     </div>
   )

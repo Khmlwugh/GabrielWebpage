@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="min-w-full">
+    <div className="min-w-full p-0">
       <Header/>
     </div>
   )

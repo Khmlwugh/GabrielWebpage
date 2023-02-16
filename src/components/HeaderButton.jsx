@@ -1,6 +1,6 @@
 function HeaderButton({text}) {
   return (
-    <div className='place-self-center self-center border-transparent hover:border-black border-b-2'>
+    <div className='px-1 mx-4 place-content-center text-center border-transparent hover:border-black border-b-4'>
       {text}
     </div>
   )

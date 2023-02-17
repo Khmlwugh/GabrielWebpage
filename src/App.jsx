@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="min-w-full p-0">
       <Header/>
-      <div className='h-5 flex space-x-10 justify-center'>
-        <Button/>
-        <Button/>
+      <div className='h-25 flex space-x-10 justify-center'>
+        <Button bg='black'/>
+        <Button bg='white'/>
       </div>
       <Footer/>
     </div>

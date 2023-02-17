@@ -4,7 +4,7 @@ import HeaderIcons from "./HeaderIcons"
 function Header(){
 
   return (
-    <div className='px-32 py-6 space-x-0 flex w-screen'>
+    <div className='py-6 space-x-0 flex w-screen justify-center'>
       <div className='w-1/4 place-self-center font-semibold text-lg'>
         Gabo.
       </div>

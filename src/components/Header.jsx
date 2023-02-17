@@ -1,4 +1,5 @@
 import HeaderButton from "./HeaderButton"
+import HeaderIcons from "./HeaderIcons"
 
 function Header(){
 
@@ -13,6 +14,7 @@ function Header(){
         <HeaderButton text='Blog'/>
         <HeaderButton text='About'/>
       </div>
+      <HeaderIcons/>
     </div>
   )
 }

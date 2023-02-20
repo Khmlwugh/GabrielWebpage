@@ -9,10 +9,10 @@ function Header(){
         Gabo.
       </div>
       <div className='flex px-24 space-x-10'>
-        <HeaderButton text='Home'/>
-        <HeaderButton text='Work'/>
-        <HeaderButton text='Blog'/>
-        <HeaderButton text='About'/>
+        <HeaderButton to='/' text='Home'/>
+        <HeaderButton to='/' text='Work'/>
+        <HeaderButton to='/' text='Blog'/>
+        <HeaderButton to='/about' text='About'/>
       </div>
       <HeaderIcons/>
     </div>

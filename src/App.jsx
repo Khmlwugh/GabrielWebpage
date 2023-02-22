@@ -15,14 +15,6 @@ function App() {
         <Route path='/about' element={<AboutPage/>}/>
       </Routes>
     </BrowserRouter>
-
-
-    //<div className="min-w-full p-0">
-    //  <Header/>
-    //  <IntroPage/>
-    //  <AboutPage/>
-    //  <Footer/>
-    //</div>
   )
 }
 

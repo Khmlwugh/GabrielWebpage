@@ -21,7 +21,7 @@ function AboutPage(){
       <div className='px-10 py-5'>
       Ipsam molestiae vitae autem laudantium consequuntur accusamus dicta nisi. Magni et consequatur doloribus neque et. Autem omnis ut consequatur dignissimos autem earum. Dignissimos at omnis nihil non velit sit exercitationem delectus dolores. Voluptatem dolor ea aut perspiciatis.
       </div>
-      <div className='py-5 px-10 flex flex-col justify-center'>
+      <div className='py-5 px-10 flex flex-col justify-center items-center'>
         <div className='text-2xl font-semibold'>
           A little bit about me
         </div>

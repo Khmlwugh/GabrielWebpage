@@ -22,29 +22,39 @@ function AboutPage(){
       Ipsam molestiae vitae autem laudantium consequuntur accusamus dicta nisi. Magni et consequatur doloribus neque et. Autem omnis ut consequatur dignissimos autem earum. Dignissimos at omnis nihil non velit sit exercitationem delectus dolores. Voluptatem dolor ea aut perspiciatis.
       </div>
       <div className='py-5 px-10 flex flex-col justify-center items-center'>
-        <div className='text-2xl font-semibold'>
+        <div className='text-2xl font-semibold self-start px-52 py-4'>
           A little bit about me
         </div>
-          <ul className='flex flex-col w-96 justify-center list-disc'>
-            <li className="w-96 py-3">
-              <div  className='font-semibold'>SMTP Granite Kids</div>
-              <div className='text-sm text-gray-500'>2018 - present</div>
-              <div>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
+          <ul className='flex flex-col w-full justify-center items-center list-disc'>
+            <li className="w-6/12 py-5 pl-14">
+              <div  className='font-semibold text-left py-1'>SMTP Granite Kids</div>
+              <div className='text-sm text-gray-500 text-left'>2018 - present</div>
+              <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
             </li>
-            <li className="w-96 py-3">
-              <div className='font-semibold'>SMTP Granite Kids</div>
-              <div className='text-sm text-gray-500'>2018 - present</div>
-              <div>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
+            <li className="w-6/12 py-5 pl-14">
+              <div className='font-semibold text-left py-1'>SMTP Granite Kids</div>
+              <div className='text-sm text-gray-500 text-left'>2018 - present</div>
+              <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
             </li>
-            <li className="w-96 py-3">
-              <div className='font-semibold'>SMTP Granite Kids</div>
-              <div className='text-sm text-gray-500'>2018 - present</div>
-              <div>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
+            <li className="w-6/12 py-5 pl-14">
+              <div className='font-semibold text-left py-1'>SMTP Granite Kids</div>
+              <div className='text-sm text-gray-500 text-left'>2018 - present</div>
+              <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
             </li>
           </ul>
       </div>
-      <div>
-        <div className='text-2xl font-semibold'>My current responsibilities</div>
+      <div className="py-5 px-10 flex flex-col justify-center items-center w-full">
+        <div className='text-2xl font-semibold self-start px-48 py-4'>My current responsibilities</div>
+        <div className="px-10 py-5 w-8/12 text-left">
+          Distinctio numquam sit modi nisi laboriosam quasi sed. Non consequatur totam quis voluptatem est. Possimus reprehenderit voluptas temporibus ea sed. Illum consectetur laboriosam exercitationem deserunt cumque consequatur.
+        </div>
+        <div className="w-6/12 py-5">
+          <ul className="list-disc">
+            <li className="text-left pl-5">Voluptas placeat voluptas quaerat sint qui sunt nihil. </li>
+            <li className="text-left pl-5">Quia non aperiam numquam esse doloremque. Ab iure incidunt iste quaerat laudantium temporibus placeat quis.</li>
+            <li className="text-left pl-5">Animi earum assumenda voluptatem alias cupiditate accusamus.</li>
+          </ul>
+        </div>
       </div>
     </div>
     <Footer/>

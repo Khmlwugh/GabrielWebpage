@@ -15,6 +15,42 @@ function IntroPage(){
           <Button bg='white' text='Read more about me'/>
         </div>
       </div>
+      <div className='flex bg-black w-100 h-24 align-center items-center justify-center space-x-10'>
+        <div className="text-white font-bold">
+          Find me across the internet:
+        </div>
+        <div className="text-white">
+          Icons
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <div className="font-bold text-2xl py-10 w-6/12">Case Studies</div>
+        <div className='flex items-center justify-center'>
+          <div className="flex flex-col items-center px-30 py-3">
+            <img className='h-6/12' src='src/assets/images/Rectangle 2image1.png'/>
+            <div className="font-bold self-start py-3 w-100 ">
+              Float Life
+            </div>
+            <div className="w-7/12 text-left ">
+              Iusto labore necessitatibus. Ut minima autem fuga ad eaque eos.
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <img className='h-6/12' src='src/assets/images/Rectangle 2image2.png'/>
+            <div className="font-bold self-start px-24 py-3 text-left w-100">
+              Retro Call
+            </div>
+            <div className="w-7/12 text-left">
+              Distinctio aperiam maiores et mollitia necessitatibus. Et reprehenderit.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="py-10">
+        <div className="font-bold text-2xl">Side Project</div>
+      </div>
       <Footer/>
     </div>
   )

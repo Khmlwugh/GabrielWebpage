@@ -49,7 +49,25 @@ function IntroPage(){
       </div>
 
       <div className="py-10">
-        <div className="font-bold text-2xl">Side Project</div>
+        <div className="font-bold text-2xl ">Side Project</div>
+
+        <div className="flex items-center justify-center py-5">
+          <img src='src/assets/images/Rectangle 2small.png'/>
+          <div className="flex flex-col px-5">
+            <div className="text-2xl font-bold text-left">Buckinghamshire Croatian Quantify</div>
+            <div className="text-left">Expedita et eveniet non accusantium perspiciatis. Quam deleniti pariatur optio. Quo dicta voluptate...</div>
+            <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
+          </div>
+        </div>
+      <div>
+        <div className='font-bold text-2xl'>Recent Writing</div>
+
+        <div>
+          <div className="text-2xl font-bold text-left">Vortals convergence</div>
+          <div>Iusto labore necessitatibus. Ut minima autem fuga ad eaque eos. Cumq...</div>
+          <div>Thu Jan 09, 2031 </div>
+        </div>
+      </div>
       </div>
       <Footer/>
     </div>

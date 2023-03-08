@@ -28,18 +28,18 @@ function IntroPage(){
         
       <div className="flex flex-col items-center">
         <div className="font-bold text-2xl py-10">Case Studies</div>
-        <div className='flex items-center justify-center'>
-          <div className="flex flex-col items-center py-3">
-            <img className='min-w-full' src='src/assets/images/Rectangle 2image1.png'/>
-            <div className="font-bold self-start py-3">
+        <div className='flex items-center justify-center space-x-5'>
+          <div className="flex flex-col items-center w-1/2">
+            <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+            <div className="font-bold self-start py-3 text-left">
               Float Life
             </div>
             <div className="text-left ">
               Iusto labore necessitatibus. Ut minima autem fuga ad eaque eos.
             </div>
           </div>
-          <div className="flex flex-col items-center">
-            <img className='min-w-full' src='src/assets/images/Rectangle 2image2.png'/>
+          <div className="flex flex-col items-center w-1/2">
+            <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
             <div className="font-bold self-start py-3 text-left">
               Retro Call
             </div>
@@ -51,7 +51,7 @@ function IntroPage(){
       </div>
 
       <div className="py-10">
-        <div className="font-bold text-2xl text-left">Side Project</div>
+        <div className="font-bold text-2xl text-left">Side Projects</div>
 
         <div className="flex items-center justify-center py-5">
           <img src='src/assets/images/Rectangle 2small.png'/>

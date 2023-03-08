@@ -7,8 +7,9 @@ function AboutPage(){
   return(
   <div>
     <Header/>
-    <MainContainer>
-      <div className='items-center flex space-x-40 justify-center h-60 bg-yellow-300 py-4'>
+    <div className="bg-yellow-300 py-4 h-60 flex">
+      <MainContainer>
+        <div className='items-center flex space-x-40 justify-center'>
         <div className='flex flex-col justify-center'>
           <div className='font-bold text-4xl pb-5 text-left'>
             Hola!
@@ -19,6 +20,11 @@ function AboutPage(){
         </div>
         <img className="max-h-36 border-2 border-black" src='src/assets/images/madvillainy.png'></img>
       </div>
+
+      </MainContainer>
+    </div>
+
+    <MainContainer>
       <div className='py-10'>
         <div className='py-5 text-left'>
         Ipsam molestiae vitae autem laudantium consequuntur accusamus dicta nisi. Magni et consequatur doloribus neque et. Autem omnis ut consequatur dignissimos autem earum. Dignissimos at omnis nihil non velit sit exercitationem delectus dolores. Voluptatem dolor ea aut perspiciatis.

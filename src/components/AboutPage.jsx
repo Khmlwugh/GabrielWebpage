@@ -33,7 +33,7 @@ function AboutPage(){
           <div className='text-2xl font-semibold self-start py-4'>
             A little bit about me
           </div>
-            <ul className='flex flex-col w-full justify-center list-disc'>
+            <ul className='flex flex-col w-full justify-center list-disc ml-10'>
               <li className="py-5 pl-14">
                 <div  className='font-semibold text-left py-1'>SMTP Granite Kids</div>
                 <div className='text-sm text-gray-500 text-left'>2018 - present</div>

@@ -13,7 +13,7 @@ function WorkPage(){
             Work
           </div>
           <div className="">
-          Est quas et voluptatem vero distinctio. Molestiae eum aliqua..
+          These are the projects I've worked on so far..
           </div>
         </div>
 
@@ -23,28 +23,28 @@ function WorkPage(){
           </div>
           <div className="flex flex-col py-5">
             <img className='py-3' src='src/assets/images/Rectangle 2banana.png'/>
-            <div className="font-bold text-left">Banana Library</div>
-            <div className="text-left">
-            Possimus sunt autem doloremque enim quo sit architecto reiciendis. Ipsum quam aut aut quo. Est quas et voluptatem vero distinctio. Molestiae eum aliqua...
+            <div className="font-bold text-left pt-2">Personal Web Page</div>
+            <div className="text-left pb-4">
+            This is my personal webpage (and the page you're currently browsing). Built using Vite + React.js and Tailwind CSS.
             </div>
           </div>
           <div className='flex items-center justify-center space-x-5'>
             <div className="flex flex-col items-center w-1/2">
               <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
               <div className="font-bold self-start py-3 text-left">
-                Float Life
+                Statify
               </div>
               <div className="text-left ">
-                Iusto labore necessitatibus. Ut minima autem fuga ad eaque eos.
+                This is a webpage created using the Spotify API and Vite + React.js. The purpose of the page is to be able to check the latest releases that's relevant to any country of your choosing.
               </div>
             </div>
             <div className="flex flex-col items-center w-1/2">
               <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
               <div className="font-bold self-start py-3 text-left">
-                Retro Call
+                Admission Exam Quiz
               </div>
               <div className="text-left">
-                Distinctio aperiam maiores et mollitia necessitatibus. Et reprehenderit.
+                This is an API that returns a number of questions from different admission exams from different colleges. The API is able to take parameters as numbeer of questions to be returned, college and subject.
               </div>
             </div>
           </div>

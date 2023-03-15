@@ -8,7 +8,7 @@ function WorkPage(){
     <div>
       <Header/>
       <MainContainer>
-        <div className="py-14">
+        <div className="py-8">
           <div className="text-4xl font-bold pb-6">
             Work
           </div>
@@ -21,7 +21,7 @@ function WorkPage(){
           <div className="text-2xl font-bold text-left">
              Selected Works
           </div>
-          <div className="flex flex-col py-5">
+          <div className="flex flex-col py-8">
             <img className='py-3' src='src/assets/images/Rectangle 2banana.png'/>
             <div className="font-bold text-left pt-2">Personal Web Page</div>
             <div className="text-left pb-4">
@@ -41,7 +41,7 @@ function WorkPage(){
             <div className="flex flex-col items-center w-1/2">
               <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
               <div className="font-bold self-start py-3 text-left">
-                Admission Exam Quiz
+                Admission Exam Quiz AÔ
               </div>
               <div className="text-left">
                 This is an API that returns a number of questions from different admission exams from different colleges. The API is able to take parameters as numbeer of questions to be returned, college and subject.

@@ -6,15 +6,18 @@ import MainContainer from "./MainContainer"
 function IntroPage(){
    
   return(
-    <div>
+    <div className="">
       <Header/>
-      <div className='h-screen max-h-96 bg-blue-500 py-20 px-20 space-y-10'>
-        <div className='font-semibold text-5xl'>Gabriel Flores</div>
-        <div className='px-40'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
-        <div className='space-x-10'>
+      <div className='h-screen max-h-96 bg-blue-500 py-20 px-5 space-y-10'>
+        <MainContainer>
+
+        <div className='font-semibold text-5xl py-5'>Gabriel Flores</div>
+        <div className='py-5'>Full Stack Developer based in Lima, Perú.</div>
+        <div className='flex-col justify-center items-center flex md:flex-row md:space-x-10'>
           <Button bg='black' text='View my works'/>
           <Button bg='white' text='Read more about me'/>
         </div>
+        </MainContainer>
       </div>
       <div className='flex bg-black w-100 h-24 align-center items-center justify-center space-x-10'>
         <div className="text-white font-bold">
@@ -28,7 +31,7 @@ function IntroPage(){
         
       <div className="flex flex-col items-center">
         <div className="font-bold text-2xl py-10">Case Studies</div>
-        <div className='flex items-center justify-center space-x-5'>
+        <div className='flex md:flex-row flex-col items-center justify-center md:space-x-5'>
           <div className="flex flex-col items-center w-1/2">
             <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
             <div className="font-bold self-start py-3 text-left">

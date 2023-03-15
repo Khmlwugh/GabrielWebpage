@@ -15,8 +15,7 @@ function AboutPage(){
             Hola!
           </div>
           <div className="max-w-md text-left">
-          Pariatur quas consequatur aut. Dolorum est quis eum. Placeat dolorem provident animi aliquam molestias sunt asp.
-          </div>
+          I am a 26 year old Web Developer based in Lima, Peru. I work mainly with RoR and React.js ; and am currently looking for my first work experience in Tech.           </div>
         </div>
         <img className="max-h-36 border-2 border-black" src='src/assets/images/madvillainy.png'></img>
       </div>
@@ -27,7 +26,7 @@ function AboutPage(){
     <MainContainer>
       <div className='py-10'>
         <div className='py-5 text-left'>
-        Ipsam molestiae vitae autem laudantium consequuntur accusamus dicta nisi. Magni et consequatur doloribus neque et. Autem omnis ut consequatur dignissimos autem earum. Dignissimos at omnis nihil non velit sit exercitationem delectus dolores. Voluptatem dolor ea aut perspiciatis.
+        I graduated from Psychology school in 2019 and dabbled between jobs until 2022. That year I decided to risk it all to pursue a carreer in what I was passioned about. I joined a 6 month Full Stack bootcamp called Codeable and learnt all necessary to get into this competitive industry,
         </div>
         <div className='py-5 flex flex-col justify-center items-center'>
           <div className='text-2xl font-semibold self-start py-4'>
@@ -35,19 +34,14 @@ function AboutPage(){
           </div>
             <ul className='flex flex-col w-full justify-center list-disc ml-10'>
               <li className="py-5 pl-14">
-                <div  className='font-semibold text-left py-1'>SMTP Granite Kids</div>
-                <div className='text-sm text-gray-500 text-left'>2018 - present</div>
-                <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
+                <div  className='font-semibold text-left py-1'>UNMSM - Psychology School</div>
+                <div className='text-sm text-gray-500 text-left'>2013 - 2019</div>
+                <div className='text-left py-1'>I studied in one of the best schools in Peru. The career lasts a total of 6 years, 5 years of theory classes and a one-year internship.</div>
               </li>
               <li className="py-5 pl-14">
-                <div className='font-semibold text-left py-1'>SMTP Granite Kids</div>
-                <div className='text-sm text-gray-500 text-left'>2018 - present</div>
-                <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
-              </li>
-              <li className="py-5 pl-14">
-                <div className='font-semibold text-left py-1'>SMTP Granite Kids</div>
-                <div className='text-sm text-gray-500 text-left'>2018 - present</div>
-                <div className='text-left py-1'>Itaque officia voluptates soluta quam voluptates omnis aut fuga. Et et explicabo libero tempore. Minima id est tenetur voluptate. </div>
+                <div className='font-semibold text-left py-1'>Codeable</div>
+                <div className='text-sm text-gray-500 text-left'>February 2022 - July 2022</div>
+                <div className='text-left py-1'>Codeable’s 6-month program covers CS fundamentals, full stack technologies as Ruby on Rails, Postgresql and React. As well as, focusing on soft skills and English proficiency to ensure employability.</div>
               </li>
             </ul>
         </div>

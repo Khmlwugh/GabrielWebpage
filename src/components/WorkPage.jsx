@@ -41,7 +41,7 @@ function WorkPage(){
             <div className="flex flex-col items-center w-1/2">
               <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
               <div className="font-bold self-start py-3 text-left">
-                Admission Exam Quiz AÔ
+                Admission Exam Quiz API
               </div>
               <div className="text-left">
                 This is an API that returns a number of questions from different admission exams from different colleges. The API is able to take parameters as numbeer of questions to be returned, college and subject.

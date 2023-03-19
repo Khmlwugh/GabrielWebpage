@@ -12,10 +12,14 @@ function IntroPage(){
         <MainContainer>
 
         <div className='font-semibold text-5xl py-5'>Gabriel Flores</div>
-        <div className='py-5'>Full Stack Developer based in Lima, Perú.</div>
+        <div className='py-5'>Full Stack Developer based in Lima, Perú. I'm currently looking for my first work experience in Tech</div>
         <div className='flex-col justify-center items-center flex md:flex-row md:space-x-10'>
-          <Button bg='black' text='View my works'/>
-          <Button bg='white' text='Read more about me'/>
+          <Button destination='/work' bg='black'>
+            View my works
+          </Button>
+          <Button destination='/about' bg='white'>
+            Read more about me
+          </Button>
         </div>
         </MainContainer>
       </div>
@@ -78,7 +82,9 @@ function IntroPage(){
             <div className="text-left text-sm text-gray-500">Fri Jun 11, 2027</div>
           </div>
         </div>
-        <Button text='View all Posts'/>
+        <Button destination='/work' text='View all Posts'>
+          View all Posts
+        </Button>
       </div>
 
       </MainContainer>

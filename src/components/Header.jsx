@@ -6,7 +6,9 @@ function Header(){
   return (
     <div className='py-6 space-x-0 flex w-screen justify-center'>
       <div className='w-1/4 place-self-center font-semibold text-lg'>
-        Gabo.
+        <a href='/'>
+          Gabo.
+        </a>
       </div>
       <div className='flex px-24 space-x-10'>
         <HeaderButton to='/' text='Home'/>

@@ -10,8 +10,8 @@ function Header(){
       </div>
       <div className='flex px-24 space-x-10'>
         <HeaderButton to='/' text='Home'/>
-        <HeaderButton to='/work' text='Work'/>
         <HeaderButton to='/about' text='About'/>
+        <HeaderButton to='/work' text='Work'/>
       </div>
       <HeaderIcons/>
     </div>

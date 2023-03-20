@@ -68,23 +68,6 @@ function IntroPage(){
             <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
           </div>
         </div>
-        <div className="flex flex-col py-5">
-          <div className='font-bold text-left text-2xl py-5'>Recent Writing</div>
-          <div className="flex flex-col">
-            <div className="text-2xl font-bold text-left">Vortals convergence</div>
-            <div className='text-left'>Iusto labore necessitatibus. Ut minima autem fuga ad eaque eos. Cumq...</div>
-            <div className="text-left text-sm text-gray-500">Thu Jan 09, 2031 </div>
-          </div>
-
-          <div className="flex flex-col py-5">
-            <div className="text-2xl font-bold text-left">Unbranded navigate</div>
-            <div className='text-left'>Veniam consequatur distinctio. Sit dicta non odit ut. Eum iure dolor in et odit. Consectetur quis ut sit ducimus.</div>
-            <div className="text-left text-sm text-gray-500">Fri Jun 11, 2027</div>
-          </div>
-        </div>
-        <Button destination='/work' text='View all Posts'>
-          View all Posts
-        </Button>
       </div>
 
       </MainContainer>

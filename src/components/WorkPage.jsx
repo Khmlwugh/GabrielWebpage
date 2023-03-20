@@ -19,7 +19,7 @@ function WorkPage(){
 
         <div className="py-5">
           <div className="text-2xl font-bold text-left">
-             Selected Works
+             Projects
           </div>
           <div className="flex flex-col py-8">
             <img className='py-3' src='src/assets/images/Rectangle 2banana.png'/>
@@ -51,34 +51,14 @@ function WorkPage(){
         </div>
 
         <div className="py-5">
-          <div className="font-bold text-2xl text-left">Side Projects</div>
-
-          <div className="flex items-center justify-center py-5">
-            <img src='src/assets/images/Rectangle 2small.png'/>
-            <div className="flex flex-col px-5">
-              <div className=" font-bold text-left">Buckinghamshire Croatian Quantify</div>
-              <div className="text-left">Expedita et eveniet non accusantium perspiciatis. Quam deleniti pariatur optio. Quo dicta voluptate...</div>
-              <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
-            </div>
-          </div>
+          <div className="font-bold text-2xl text-left py-3">Ideas I'd like to expand on</div>
           <div>
-            <div className="font-bold text-left">Club transform</div>
-            <div className="text-left">
-            Voluptatum vel repudiandae occaecati. Mollitia quae perferendis dolore accusantium vel id. Voluptas perferendis id quasi amet in a qu...
-            </div>
-            <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
-          </div>
-        </div>
-        <div className="py-5">
-          <div className="font-bold text-2xl text-left py-3">Experiments & Works in progress</div>
-          <div>
-            <div className="font-bold text-left">
-              Rubber
+            <div className="font-bold text-left pt-4 pb-2">
+              Letterboxd API
             </div>
             <div className="text-left py-2">
-              Aut amet nihil mollitia dolorem commodi quidem unde. Voluptas quaerat numquam quis sunt quas ab asperiores. Iste totam enim voluptas quo...
+              I've just recently learnt of the existence of the Letterboxd API. Letterboxd.com is a film related page that allows the creation of a profile and showcase what films you've watched and review them. The API allows you to use the information in letterboxd.com.
             </div>
-            <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
           </div>
         </div>
 

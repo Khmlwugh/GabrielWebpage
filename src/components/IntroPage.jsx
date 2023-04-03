@@ -12,7 +12,7 @@ function IntroPage(){
         <MainContainer>
 
         <div className='font-semibold text-5xl py-5'>Gabriel Flores</div>
-        <div className='py-5'>Full Stack Developer based in Lima, Perú. I'm currently looking for job opportunities in the Tech industry.</div>
+        <div className='py-5'>Full Stack Developer based in Lima, Perú looking for job opportunities in the Tech industry. Fluent in English and Spanish, responsible, reliable and hard-working.</div>
         <div className='flex-col justify-center items-center flex md:flex-row md:space-x-10'>
           <Button destination='/work' bg='black'>
             View my works
@@ -58,7 +58,7 @@ function IntroPage(){
       </div>
 
       <div className="py-10">
-        <div className="font-bold text-2xl text-left">Side Projects</div>
+        <div className="font-bold text-2xl text-left">About me</div>
 
         <div className="flex items-center justify-center py-5">
           <img src='src/assets/images/Rectangle 2small.png'/>

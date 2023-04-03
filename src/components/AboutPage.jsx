@@ -35,17 +35,17 @@ function AboutPage(){
           <div className='text-2xl font-semibold self-start py-4'>
             Education
           </div>
-            <ul className='flex flex-col w-full justify-center list-disc ml-20'>
-              <li className="py-5 pl-5">
-                <div className='font-semibold text-left py-1'>Codeable</div>
+            <ul className='px-2 flex flex-col w-full justify-center list-disc list-inside'>
+              <li className="text-left font-semibold">Codeable</li>
+              <div className="pl-6">
                 <div className='text-sm text-gray-500 text-left'>February 2022 - July 2022</div>
                 <div className='text-left py-1'>Codeable’s 6-month program covers CS fundamentals, full stack technologies as Ruby on Rails, Postgresql and React. As well as, focusing on soft skills and English proficiency to ensure employability.</div>
-              </li>
-              <li className="py-5 pl-5">
-                <div  className='font-semibold text-left py-1'>UNMSM - Psychology School</div>
+              </div>
+              <li className="text-left font-semibold">UNMSM - Psychology School</li>
+              <div className="pl-6">
                 <div className='text-sm text-gray-500 text-left'>2013 - 2019</div>
                 <div className='text-left py-1'>I studied in one of the best schools in Peru. The career lasts a total of 6 years, 5 years of theory classes and a one-year internship.</div>
-              </li>
+              </div>
             </ul>
         </div>
         <div className="py-5 flex flex-col justify-center items-center w-full">
@@ -56,15 +56,31 @@ function AboutPage(){
           <div className='text-xl self-start pt-2'>What I know</div>
           <div className="py-5 self-start pl-10">
             <ul className="list-disc">
-              <li className="text-left pl-5">Website basics with as HTML, CSS & JavaScript</li>
-              <li className="text-left pl-5">For front-end, I've been using React.js</li>
-              <li className="text-left pl-5">For back-end, I've been using Ruby on Rails</li>
+              <li className="text-left pl-5">Website fundamentals with as HTML, CSS & JavaScript</li>
+              <li className="text-left pl-5">Front-end Frameworks: React.js and its ecosystem libraries:
+                <ul className="pl-5">
+                  <li>React Router</li>
+                  <li>CSS in JS: Emotion, Styled Components</li>
+                  <li>React Testing Library</li>
+                  <li>Formik</li>
+                </ul>
+              </li>
+              <li className="text-left pl-5">Back-end Frameworks: Ruby on Rails:
+                <ul className="pl-5">
+                  <li>Full Stack application using MVC pattern</li>
+                  <li>Restul API including authentication and authorization</li>
+                  <li>Worked with Active Record, Active Storage, Active Mailer</li>
+                  <li>Used gems such as Bcrypt, Devise and Pundit</li>
+                </ul>
+              </li>
+              <li className="text-left pl-5">PostgreSQL</li>
+              <li className="text-left pl-5">Trunk-based development using Git and Github</li>
             </ul>
           </div>
           <div className='text-xl self-start pt-2'>What I'm learning</div>
           <div className="py-5 self-start pl-10">
             <ul className="list-disc">
-              <li className="text-left pl-5">I'm looking into learning TypeScript</li>
+              <li className="text-left pl-5">Because of its popularity and , I'm looking into learning TypeScript</li>
               <li className="text-left pl-5">I've done small projects with Python as well, but I'm trying to expand my expertise in Python</li>
               <li className="text-left pl-5">Node.js is another backend framework I've set my eyes into</li>
             </ul>

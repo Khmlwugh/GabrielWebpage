@@ -29,7 +29,7 @@ function AboutPage(){
             A little bit about me
           </div>
         <div className='py-5 text-left'>
-        I graduated from Psychology school in 2019 and dabbled between jobs until 2022. That year I decided to risk it all to pursue a carreer in what I was passioned about. I joined a 6 month Full Stack bootcamp called Codeable and learnt all necessary to get into this competitive industry,
+        I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I realized that Psychology may not be the best suit for me and decided to switch career paths despite the risk of starting from scratch because it was I am passionate about. <br/>As part of my journey, I decided to join Codeable. Codeable is an intesive 6-month bootcamp where we're taught the tech skills, soft skills and support on employability to be job-ready developers when the program ends.
         </div>
         <div className='py-5 flex flex-col justify-center items-center'>
           <div className='text-2xl font-semibold self-start py-4'>
@@ -92,19 +92,19 @@ function AboutPage(){
           <div className="flex flex-col">
             <div>
               <div className='text-xl text-left py-4'>Cinema</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+              <img className='w-screen max-h-28 object-cover' src='src/assets/images/la_la_land_banner.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Music</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Albumism_TheSmiths_AlbumMosaic.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Cycling</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+              <img className='w-screen max-h-28 object-cover' src='src/assets/images/bike.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Literature</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+              <img className='w-screen max-h-28 object-cover' src='src/assets/images/harukimurakami.jpg'/>
             </div>
           </div>
         </div>

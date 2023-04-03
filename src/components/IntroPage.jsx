@@ -55,6 +55,9 @@ function IntroPage(){
             </div>
           </div>
         </div>
+        <Button destination='/work' bg='white'>
+            See more...
+        </Button>
       </div>
 
       <div className="py-10">
@@ -63,11 +66,13 @@ function IntroPage(){
         <div className="flex items-center justify-center py-5">
           <img src='src/assets/images/Rectangle 2small.png'/>
           <div className="flex flex-col px-5">
-            <div className="text-2xl font-bold text-left">Buckinghamshire Croatian Quantify</div>
-            <div className="text-left">Expedita et eveniet non accusantium perspiciatis. Quam deleniti pariatur optio. Quo dicta voluptate...</div>
-            <div className="text-left text-sm text-gray-600">Sun Jan 29, 2023</div>
+            <div className="text-2xl font-bold text-left">A little bit more about me</div>
+            <div className="text-left">I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I...</div>
           </div>
         </div>
+        <Button destination='/about' bg='white'>
+            Read more about me
+        </Button>
       </div>
 
       </MainContainer>

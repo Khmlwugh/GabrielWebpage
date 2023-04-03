@@ -48,6 +48,19 @@ function AboutPage(){
               </div>
             </ul>
         </div>
+        
+        <div className="py-5 flex flex-col justify-center items-center w-full">
+          <div className='text-2xl font-semibold self-start py-4 text-left'>What I bring to the table:</div>
+          <div className="py-5 self-start pl-10">
+            <ul className="list-disc">
+              <li className="text-left pl-5">Fluency in both English and Spanish</li>
+              <li className="text-left pl-5">Team-player, effective communication skills</li>
+              <li className="text-left pl-5">Hard-worker, responsible and reliable</li>
+              <li className="text-left pl-5">Eager to always learn something new, stack or technologies</li>
+            </ul>
+          </div>
+        </div>
+        
         <div className="py-5 flex flex-col justify-center items-center w-full">
           <div className='text-2xl font-semibold self-start py-4'>Stack</div>
           <div className="py-5 text-left">
@@ -86,6 +99,7 @@ function AboutPage(){
             </ul>
           </div>
         </div>
+
 
         <div>
           <div className='text-2xl font-semibold text-left py-4'>Interests</div>

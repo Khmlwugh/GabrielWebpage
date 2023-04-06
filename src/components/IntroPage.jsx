@@ -46,7 +46,7 @@ function IntroPage(){
             </div>
           </div>
           <div className="flex flex-col items-center w-1/2">
-            <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
+            <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image2.png'/>
             <div className="font-bold self-start py-3 text-left">
             Admission Exam Quiz API
             </div>

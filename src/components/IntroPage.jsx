@@ -37,7 +37,7 @@ function IntroPage(){
         <div className="font-bold text-2xl py-10">Personal Projects</div>
         <div className='flex md:flex-row flex-col items-center justify-center md:space-x-5'>
           <div className="flex flex-col items-center w-1/2">
-            <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+            <img className='w-full max-h-80 object-cover' src='/images/Rectangle 2image1.png'/>
             <div className="font-bold self-start py-3 text-left">
               Statify
             </div>
@@ -64,7 +64,7 @@ function IntroPage(){
         <div className="font-bold text-2xl text-left">About me</div>
 
         <div className="flex items-center justify-center py-5">
-          <img src='src/assets/images/Rectangle 2small.png'/>
+          <img src='images/Rectangle 2small.png'/>
           <div className="flex flex-col px-5">
             <div className="text-2xl font-bold text-left">A little bit more about me</div>
             <div className="text-left">I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I...</div>

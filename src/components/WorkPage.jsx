@@ -22,7 +22,7 @@ function WorkPage(){
              Projects
           </div>
           <div className="flex flex-col py-8">
-            <img className='py-3' src='src/assets/images/Rectangle 2banana.png'/>
+            <img className='py-3' src='images/Rectangle 2banana.png'/>
             <div className="font-bold text-left pt-2">Personal Web Page</div>
             <div className="text-left pb-4">
             This is my personal webpage (and the page you're currently browsing). Built using Vite + React.js and Tailwind CSS.
@@ -30,7 +30,7 @@ function WorkPage(){
           </div>
           <div className='flex items-center justify-center space-x-5'>
             <div className="flex flex-col items-center w-1/2">
-              <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image1.png'/>
+              <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image1.png'/>
               <div className="font-bold self-start py-3 text-left">
                 Statify
               </div>
@@ -39,7 +39,7 @@ function WorkPage(){
               </div>
             </div>
             <div className="flex flex-col items-center w-1/2">
-              <img className='w-full max-h-80 object-cover' src='src/assets/images/Rectangle 2image2.png'/>
+              <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image2.png'/>
               <div className="font-bold self-start py-3 text-left">
                 Admission Exam Quiz API
               </div>

@@ -17,7 +17,7 @@ function AboutPage(){
           <div className="max-w-md text-left">
           I am a 26 year old Web Developer based in Lima, Peru. I work mainly with RoR and React.js and am currently looking for an oportunity in the Tech industry.           </div>
         </div>
-        <img className="max-h-36 border-2 border-black" src='src/assets/images/madvillainy.png'></img>
+        <img className="max-h-36 border-2 border-black" src='images/madvillainy.png'></img>
       </div>
 
       </MainContainer>
@@ -106,19 +106,19 @@ function AboutPage(){
           <div className="flex flex-col">
             <div>
               <div className='text-xl text-left py-4'>Cinema</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/la_la_land_banner.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='images/la_la_land_banner.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Music</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/Albumism_TheSmiths_AlbumMosaic.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='images/Albumism_TheSmiths_AlbumMosaic.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Cycling</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/bike.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='images/bike.jpg'/>
             </div>
             <div>
               <div className='text-xl text-left py-4'>Literature</div>
-              <img className='w-screen max-h-28 object-cover' src='src/assets/images/harukimurakami.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='images/harukimurakami.jpg'/>
             </div>
           </div>
         </div>

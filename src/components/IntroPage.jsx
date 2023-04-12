@@ -6,7 +6,7 @@ import MainContainer from "./MainContainer"
 function IntroPage(){
    
   return(
-    <div className="">
+    <div className="w-full">
       <Header/>
       <div className='h-screen max-h-96 bg-blue-500 py-20 px-5 space-y-10'>
         <MainContainer>
@@ -76,8 +76,7 @@ function IntroPage(){
       </div>
 
       </MainContainer>
-      <Footer/>
-    </div>
+    </div>  
   )
 
 }

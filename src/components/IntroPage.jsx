@@ -8,7 +8,7 @@ function IntroPage(){
   return(
     <div className="w-full">
       <Header/>
-      <div className='h-screen max-h-96 bg-blue-500 py-20 px-5 space-y-10'>
+      <div className='h-[90vh] md:max-h-96 bg-blue-500 py-20 px-5 space-y-10'>
         <MainContainer>
 
         <div className='font-semibold text-5xl py-5'>Gabriel Flores</div>

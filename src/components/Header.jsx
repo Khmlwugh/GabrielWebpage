@@ -8,6 +8,8 @@ function Header(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
+    <div className="h-[10vh]">
+
     <MainContainer>
       <section className="md:hidden flex">
         <div className="px-5 my-3 space-y-2" onClick={() => setIsMenuOpen((current) => !current)}>
@@ -26,7 +28,7 @@ function Header(){
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-            >
+              >
               <line x1="18" y1="6" x2="6" y2="18" />
               <line x1="6" y1="6" x2="18" y2="18" />
             </svg>
@@ -76,8 +78,9 @@ function Header(){
         justify-content: space-evenly;
         align-items: center;
       }
-    `}</style>
+      `}</style>
     </MainContainer>
+    </div>
     
   )
 }

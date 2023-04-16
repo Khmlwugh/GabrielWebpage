@@ -7,29 +7,29 @@ function AboutPage(){
   return(
   <div>
     <Header/>
-    <div className="bg-yellow-300 py-4 h-60 flex">
+    <div className="bg-yellow-300 py-10 h-[75vh] md:h-80 md:px-20 flex">
       <MainContainer>
-        <div className='items-center flex space-x-40 justify-center'>
+        <div className='items-center flex flex-col md:flex-row md:space-x-36 justify-center'>
         <div className='flex flex-col justify-center'>
-          <div className='font-bold text-4xl pb-5 text-left'>
+          <div className='font-bold text-5xl md:text-4xl pb-5 md:text-left'>
             Hola!
           </div>
-          <div className="max-w-md text-left">
+          <div className="max-w-md text-xl md:text-base px-10 md:px-0 py-10 md:text-left">
           I am a 26 year old Web Developer based in Lima, Peru. I work mainly with RoR and React.js and am currently looking for an oportunity in the Tech industry.           </div>
         </div>
-        <img className="max-h-36 border-2 border-black" src='images/madvillainy.png'></img>
+        <img className="w-6/12 md:w-4/12 border-2 border-black" src='images/madvillainy.png'></img>
       </div>
 
       </MainContainer>
     </div>
 
     <MainContainer>
-      <div className='py-10'>
-        <div className='text-2xl font-semibold text-left py-4'>
+      <div className='py-10 px-16 md:px-10 lg:px-0'>
+        <div className='text-4xl md:text-2xl font-semibold text-left py-4'>
             A little bit about me
           </div>
-        <div className='py-5 text-left'>
-        I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I realized that Psychology may not be the best suit for me and decided to switch career paths despite the risk of starting from scratch because it was I am passionate about. <br/>As part of my journey, I decided to join Codeable. Codeable is an intesive 6-month bootcamp where we're taught the tech skills, soft skills and support on employability to be job-ready developers when the program ends.
+        <div className='py-5 text-left text-base'>
+        I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I realized that Psychology may not be the best suit for me and decided to switch career paths despite the risk of starting from scratch because it was I am passionate about.<br/> <br/>As part of my journey, I decided to join Codeable. Codeable is an intesive 6-month bootcamp where we're taught the tech skills, soft skills and support on employability to be job-ready developers when the program ends.
         </div>
         <div className='py-5 flex flex-col justify-center items-center'>
           <div className='text-2xl font-semibold self-start py-4'>
@@ -124,7 +124,6 @@ function AboutPage(){
         </div>
       </div>
     </MainContainer>
-    <Footer/>
   </div>
   )
 }

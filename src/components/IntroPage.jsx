@@ -40,7 +40,7 @@ function IntroPage(){
       <MainContainer>  
       <div className="flex flex-col items-center py-5 md:px-10">
         <div className="font-bold text-3xl py-3">Personal Projects</div>
-        <div className='flex md:flex-row flex-col items-start justify-center md:space-x-5'>
+        <div className='flex md:flex-row flex-col items-center md:items-start justify-center md:space-x-5'>
           <div className="flex flex-col items-center w-5/6 py-8">
             <img className='w-full md:w-11/12 max-h-80 object-cover' src='/images/Rectangle 2image1.png'/>
             <div className="font-bold self-start text-xl py-3 text-left">

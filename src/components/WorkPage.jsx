@@ -17,8 +17,8 @@ function WorkPage(){
           </div>
         </div>
 
-        <div className="py-5">
-          <div className="text-2xl font-bold text-left">
+        <div className="py-5 px-5">
+          <div className="text-3xl md:text-2xl font-bold text-left">
              Projects
           </div>
           <div className="flex flex-col py-8">
@@ -28,7 +28,7 @@ function WorkPage(){
             This is my personal webpage (and the page you're currently browsing). Built using Vite + React.js and Tailwind CSS.
             </div>
           </div>
-          <div className='flex items-center justify-center space-x-5'>
+          <div className='flex items-start justify-center space-x-5'>
             <div className="flex flex-col items-center w-1/2">
               <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image1.png'/>
               <div className="font-bold self-start py-3 text-left">
@@ -50,7 +50,7 @@ function WorkPage(){
           </div>
         </div>
 
-        <div className="py-5">
+        <div className="py-5 px-5">
           <div className="font-bold text-2xl text-left py-3">Ideas I'd like to expand on</div>
           <div>
             <div className="font-bold text-left pt-4 pb-2">
@@ -63,7 +63,6 @@ function WorkPage(){
         </div>
 
       </MainContainer>
-      <Footer/>
     </div>
   )
 }

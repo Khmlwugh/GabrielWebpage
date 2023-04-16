@@ -8,7 +8,7 @@ function Header(){
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <div className="h-[5vh] min-h-[30px]">
+    <div className="h-[5vh] min-h-[30px] md:h-20 md:px-5">
 
     <MainContainer>
       <section className="md:hidden flex">

@@ -63,6 +63,7 @@ function WorkPage(){
         </div>
 
       </MainContainer>
+      <Footer/>
     </div>
   )
 }

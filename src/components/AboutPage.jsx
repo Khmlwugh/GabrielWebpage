@@ -124,6 +124,7 @@ function AboutPage(){
         </div>
       </div>
     </MainContainer>
+    <Footer/>
   </div>
   )
 }

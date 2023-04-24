@@ -29,8 +29,10 @@ function AboutPage(){
             A little bit about me
           </div>
         <div className='py-5 text-left text-base'>
-        I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I realized that Psychology may not be the best suit for me and decided to switch career paths despite the risk of starting from scratch because it was I am passionate about.<br/> <br/>As part of my journey, I decided to join Codeable. Codeable is an intesive 6-month bootcamp where we're taught the tech skills, soft skills and support on employability to be job-ready developers when the program ends.
-        </div>
+        After graduating from Psychology school in 2019 and working in the field with relative success, I discovered my passion for programming and the tech industry. Although it was a risk to start from scratch, I decided to switch career paths and pursue my passion. I enrolled in Codeable, a six-month intensive bootcamp that provides comprehensive training in tech skills, soft skills, and employability support to help students become job-ready developers upon graduation.
+        <br/>
+        <br/>
+        With my background in Psychology and newfound passion for programming, I bring a unique perspective to web development. I am proficient in RoR and React.js and have successfully completed projects in both languages. I am fluent in both Spanish and English and possess strong leadership skills, a reliable work ethic, and a desire to continuously learn and improve.        </div>
         <div className='py-5 flex flex-col justify-center items-center'>
           <div className='text-2xl font-semibold self-start py-4'>
             Education
@@ -118,7 +120,7 @@ function AboutPage(){
             </div>
             <div>
               <div className='text-xl text-left py-4'>Literature</div>
-              <img className='w-screen max-h-28 object-cover' src='images/harukimurakami.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='public/images/Literature.jpg'/>
             </div>
           </div>
         </div>

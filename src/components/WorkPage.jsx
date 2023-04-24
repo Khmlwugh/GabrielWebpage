@@ -30,7 +30,7 @@ function WorkPage(){
           </div>
           <div className='flex items-start justify-center space-x-5'>
             <div className="flex flex-col items-center w-1/2">
-              <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image1.png'/>
+              <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
               <div className="font-bold self-start py-3 text-left">
                 Statify
               </div>
@@ -39,7 +39,7 @@ function WorkPage(){
               </div>
             </div>
             <div className="flex flex-col items-center w-1/2">
-              <img className='w-full max-h-80 object-cover' src='images/Rectangle 2image2.png'/>
+              <img className='w-full max-h-80 object-cover' src='images/ExamAPI Screenshot.png'/>
               <div className="font-bold self-start py-3 text-left">
                 Admission Exam Quiz API
               </div>

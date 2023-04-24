@@ -42,7 +42,7 @@ function IntroPage(){
         <div className="font-bold text-3xl py-3">Personal Projects</div>
         <div className='flex md:flex-row flex-col items-center md:items-start justify-center md:space-x-5'>
           <div className="flex flex-col items-center w-5/6 py-8">
-            <img className='w-full md:w-11/12 max-h-80 object-cover' src='/images/Rectangle 2image1.png'/>
+            <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
             <div className="font-bold self-start text-xl py-3 text-left">
               Statify
             </div>
@@ -51,7 +51,7 @@ function IntroPage(){
             </div>
           </div>
           <div className="flex flex-col items-center w-5/6 py-8">
-            <img className='w-full md:w-11/12 max-h-80 object-cover' src='images/Rectangle 2image2.png'/>
+            <img className='w-full max-h-80 object-cover' src='images/ExamAPI Screenshot.png'/>
             <div className="font-bold self-start text-xl py-3 text-left">
             Admission Exam Quiz API
             </div>
@@ -69,9 +69,9 @@ function IntroPage(){
         <div className="px-10 font-bold text-2xl text-left">About me</div>
 
         <div className="flex flex-col md:flex-row items-center justify-center py-5 px-10">
-          <img className="py-3 w-5/12 md:w-11/12" src='images/Rectangle 2small.png'/>
-          <div className="flex flex-col px-5">
-            <div className="text-xl font-bold md:text-left pb-3">A little bit more about me</div>
+          <img className="md:py-3 md:w-11/12 object-cover w-full" src='images/Rectangle 2small.png'/>
+          <div className="flex flex-col md:px-5">
+            <div className="text-xl font-bold text-left pb-3">A little bit more about me</div>
             <div className="text-left">I graduated from Psychology school in 2019 and worked on the field for some years with relative success. I learnt about programming and the tech industry in the way and fell in love with it. After a bit, I...</div>
           </div>
         </div>

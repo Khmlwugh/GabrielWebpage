@@ -69,7 +69,7 @@ function IntroPage(){
         <div className="px-10 font-bold text-2xl text-left">About me</div>
 
         <div className="flex flex-col md:flex-row items-center justify-center py-5 px-10">
-          <img className="md:py-3 md:w-11/12 object-cover w-full" src='images/Rectangle 2small.png'/>
+          <img className="pb-3 md:pb-0 md:py-3 md:w-11/12 object-cover w-full" src='images/Rectangle 2small.png'/>
           <div className="flex flex-col md:px-5">
             <div className="text-xl font-bold text-left pb-3">A little bit more about me</div>
             <div className="text-left">After graduating from Psychology school in 2019 and working in the field with relative success, I discovered my passion for programming and the tech industry. Although it was a risk to start from scratch, I decided to switch career paths and pursue...</div>

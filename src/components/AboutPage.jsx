@@ -120,7 +120,7 @@ function AboutPage(){
             </div>
             <div>
               <div className='text-xl text-left py-4'>Literature</div>
-              <img className='w-screen max-h-28 object-cover' src='public/images/Literature.jpg'/>
+              <img className='w-screen max-h-28 object-cover' src='images/Literature.jpg'/>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
+import { Link } from "react-router-dom";
 
 function WorkPage(){
 
@@ -30,7 +31,9 @@ function WorkPage(){
           </div>
           <div className='flex flex-col md:flex-row items-center md:items-start justify-center md:space-x-5'>
             <div className="flex flex-col items-center w-full md:w-1/2 py-5 md:py-0">
-              <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
+              <Link className='w-full max-h-80' target="_blank" to='https://statify-releases.netlify.app/'>
+                <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
+              </Link>
               <div className="font-bold self-start py-3 text-left">
                 Statify
               </div>

@@ -2,6 +2,7 @@ import Button from "./Buttons"
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
 import MainContainer from "./MainContainer"
+import { Link } from "react-router-dom"
 
 function IntroPage(){
    
@@ -45,7 +46,9 @@ function IntroPage(){
         <div className="font-bold text-3xl py-3">Personal Projects</div>
         <div className='flex md:flex-row flex-col items-center md:items-start justify-center md:space-x-5'>
           <div className="flex flex-col items-center w-5/6 py-8">
-            <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
+            <Link className="w-full max-h-80" target="_blank" to='https://statify-releases.netlify.app/'>
+              <img className='w-full max-h-80 object-cover' src='images/Statify Screenshot.png'/>
+            </Link>
             <div className="font-bold self-start text-xl py-3 text-left">
               Statify
             </div>

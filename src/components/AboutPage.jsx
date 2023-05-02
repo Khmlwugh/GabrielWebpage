@@ -1,6 +1,7 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
 import MainContainer from "./MainContainer.jsx"
+import { ScrollRestoration } from "react-router-dom"
 
 function AboutPage(){
 
@@ -126,6 +127,7 @@ function AboutPage(){
         </div>
       </div>
     </MainContainer>
+    <ScrollRestoration/>
     <Footer/>
   </div>
   )

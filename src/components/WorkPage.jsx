@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import MainContainer from "./MainContainer";
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 
 function WorkPage(){
 
@@ -66,6 +66,7 @@ function WorkPage(){
         </div>
 
       </MainContainer>
+      <ScrollRestoration/>
       <Footer/>
     </div>
   )

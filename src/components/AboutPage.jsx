@@ -95,9 +95,9 @@ function AboutPage(){
           <div className='text-xl self-start pt-2'>What I'm learning</div>
           <div className="py-5 self-start pl-10">
             <ul className="list-disc">
-              <li className="text-left pl-5">Because of its popularity and , I'm looking into learning TypeScript</li>
-              <li className="text-left pl-5">I've done small projects with Python as well, but I'm trying to expand my expertise in Python</li>
-              <li className="text-left pl-5">Node.js is another backend framework I've set my eyes into</li>
+              <li className="text-left pl-5">Because of its popularity and reliability, I'm looking into learning TypeScript</li>
+              <li className="text-left pl-5">I've done small projects with Python as well, but I'm trying to expand my expertise in Python because of it flexibility in different fields.</li>
+              <li className="text-left pl-5">I'm looking into geting myself familiar with Node.js given my JavaScript knowledge already.</li>
             </ul>
           </div>
         </div>

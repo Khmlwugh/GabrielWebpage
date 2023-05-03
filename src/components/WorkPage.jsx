@@ -23,7 +23,7 @@ function WorkPage(){
              Projects
           </div>
           <div className="flex flex-col py-5 md:py-8">
-            <img className='py-3' src='src/assets/images/PersonalWebpage.png'/>
+            <img className='py-3' src='images/PersonalWebpage.png'/>
             <div className="font-bold text-left pt-2">Personal Web Page</div>
             <div className="text-left md:pb-4">
             This is my personal webpage (and the page you're currently browsing). Built using Vite + React.js and Tailwind CSS.
